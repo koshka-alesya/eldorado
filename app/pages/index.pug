@@ -5,6 +5,7 @@ include ../components/block-2/block-2
 include ../components/block-3/block-3
 include ../components/block-4/block-4
 include ../components/block-5/block-5
+include ../components/block-6/block-6
 
 //- Выводим контент
 block content
@@ -32,7 +33,7 @@ block content
         .row.mb-lg-12.mb-md-12.mb-sm-6.mb-6
             .col-lg-12.col-md-12.col-sm-24.col-24
                     img(src='assets/images/image 2.png' alt='').block-img
-            .col-lg-12.col-md-12.col-sm-24.col-24.mt-lg-0.mt-md-0.mt-sm-8.mt-8
+            .col-lg-12.col-md-12.col-sm-24.col-24.mt-lg-0.mt-md-0.mt-sm-6.mt-6
                 .row
                     +block-4('assets/images/photo.svg','Отличное качество съемки новых поколениесмартфонов Samsung позволит создать и смотреть праздники, семейные торжества и памятные моменты на огромном экране, с яркими, живыми цветами и прекрасной детализацией.')
                     +block-4('assets/images/stabili.svg','Дополнительная система стабилизации сделает видеоролики плавными и красивыми.')
@@ -53,14 +54,17 @@ block content
             hr
         .mt-4.mb-6.mt-sm-4.mb-sm-6.mt-md-8.mb-md-10.mt-lg-8.mb-lg-10
             h2 Приложения и сервисы Samsung
+        
+        
         .row
-            .col-lg-8.col-md-8.mb-md-8.col-sm-24.mb-sm-6.col-24.mb-6
-                +block-3('assets/images/smart_switch.svg','Благодаря приложению Smart Switch можно перенести информацию со старого смартфона на новый. ')
-            .col-lg-8.col-md-8.col-sm-24.col-24.mb-6.mb-md-8.mb-sm-6
-                +block-3('assets/images/samsung_health.svg',' Приложение Samsung Health помогает контролировать физическую активность и вести дневник питания.')
-            .col-lg-8.col-md-8.col-sm-24.col-24.mb-6.mb-md-8.mb-sm-6
-                +block-3('assets/images/bixby.svg','Интеллектуальный помощник Bixby обеспечит быстрый доступ к переводчику, поиску в Интернете, покупкам и многому другому.')
-            .col-lg-8.col-md-8.col-sm-24.col-24.mb-6.mb-md-8.mb-sm-6
-                +block-3('assets/images/samsung_pay.svg','Приложение Samsung Pay дает возможность оплачивать свои покупки при помощи смартфона.')
-            .col-lg-8.col-md-8.col-sm-24.col-24.mb-6.mb-md-8.mb-sm-6
-                +block-3('assets/images/SmartThings.svg','Благодаря приложению Smart Things можно управлять всеми смарт-устройствами дома.')
+            .col-lg-8.col-md-8.mb-md-8.col-sm-24.col-24
+                +block-6('assets/images/smart_switch.svg','Благодаря приложению Smart Switch можно перенести информацию со старого смартфона на новый. ')
+            .col-lg-8.col-md-8.col-sm-24.col-24.mb-md-8
+                +block-6('assets/images/samsung_health.svg',' Приложение Samsung Health помогает контролировать физическую активность и вести дневник питания.')
+            .col-lg-8.col-md-8.col-sm-24.col-24.mb-md-8
+                +block-6('assets/images/bixby.svg','Интеллектуальный помощник Bixby обеспечит быстрый доступ к переводчику, поиску в Интернете, покупкам и многому другому.')
+            .col-lg-8.col-md-8.col-sm-24.col-24.mb-md-8
+                +block-6('assets/images/samsung_pay.svg','Приложение Samsung Pay дает возможность оплачивать свои покупки при помощи смартфона.')
+            .col-lg-8.col-md-8.col-sm-24.col-24.mb-md-8
+                +block-6('assets/images/SmartThings.svg','Благодаря приложению Smart Things можно управлять всеми смарт-устройствами дома.')
+                
